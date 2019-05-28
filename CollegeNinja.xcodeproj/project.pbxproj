@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5027E28A229CF5FD00F8D3CD /* Bombexplode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5027E289229CF5FD00F8D3CD /* Bombexplode.sks */; };
+		5027E28C229D389A00F8D3CD /* TrailLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5027E28B229D389A00F8D3CD /* TrailLine.swift */; };
 		5046A4AA2292B60E003ECCF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046A4A92292B60E003ECCF0 /* AppDelegate.swift */; };
 		5046A4AC2292B60E003ECCF0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5046A4AB2292B60E003ECCF0 /* GameScene.sks */; };
 		5046A4AE2292B60E003ECCF0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5046A4AD2292B60E003ECCF0 /* Actions.sks */; };
@@ -16,9 +18,13 @@
 		5046A4B72292B611003ECCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5046A4B62292B611003ECCF0 /* Assets.xcassets */; };
 		5046A4BA2292B611003ECCF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5046A4B82292B611003ECCF0 /* LaunchScreen.storyboard */; };
 		5046A4C222951E28003ECCF0 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046A4C122951E28003ECCF0 /* GameLogic.swift */; };
+		5046A4C422965FC5003ECCF0 /* Bomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046A4C322965FC5003ECCF0 /* Bomb.swift */; };
+		5046A4C622965FE4003ECCF0 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046A4C522965FE4003ECCF0 /* College.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5027E289229CF5FD00F8D3CD /* Bombexplode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bombexplode.sks; sourceTree = "<group>"; };
+		5027E28B229D389A00F8D3CD /* TrailLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailLine.swift; sourceTree = "<group>"; };
 		5046A4A62292B60D003ECCF0 /* CollegeNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5046A4A92292B60E003ECCF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5046A4AB2292B60E003ECCF0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -30,6 +36,8 @@
 		5046A4B92292B611003ECCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5046A4BB2292B611003ECCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5046A4C122951E28003ECCF0 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		5046A4C322965FC5003ECCF0 /* Bomb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bomb.swift; sourceTree = "<group>"; };
+		5046A4C522965FE4003ECCF0 /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +74,16 @@
 				5046A4AB2292B60E003ECCF0 /* GameScene.sks */,
 				5046A4AD2292B60E003ECCF0 /* Actions.sks */,
 				5046A4AF2292B60E003ECCF0 /* GameScene.swift */,
+				5027E28B229D389A00F8D3CD /* TrailLine.swift */,
 				5046A4B12292B60E003ECCF0 /* GameViewController.swift */,
 				5046A4B32292B60E003ECCF0 /* Main.storyboard */,
 				5046A4B62292B611003ECCF0 /* Assets.xcassets */,
 				5046A4B82292B611003ECCF0 /* LaunchScreen.storyboard */,
 				5046A4BB2292B611003ECCF0 /* Info.plist */,
 				5046A4C122951E28003ECCF0 /* GameLogic.swift */,
+				5046A4C322965FC5003ECCF0 /* Bomb.swift */,
+				5046A4C522965FE4003ECCF0 /* College.swift */,
+				5027E289229CF5FD00F8D3CD /* Bombexplode.sks */,
 			);
 			path = CollegeNinja;
 			sourceTree = "<group>";
@@ -139,6 +151,7 @@
 				5046A4B72292B611003ECCF0 /* Assets.xcassets in Resources */,
 				5046A4BA2292B611003ECCF0 /* LaunchScreen.storyboard in Resources */,
 				5046A4AE2292B60E003ECCF0 /* Actions.sks in Resources */,
+				5027E28A229CF5FD00F8D3CD /* Bombexplode.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +165,10 @@
 				5046A4B02292B60E003ECCF0 /* GameScene.swift in Sources */,
 				5046A4B22292B60E003ECCF0 /* GameViewController.swift in Sources */,
 				5046A4C222951E28003ECCF0 /* GameLogic.swift in Sources */,
+				5046A4C422965FC5003ECCF0 /* Bomb.swift in Sources */,
 				5046A4AA2292B60E003ECCF0 /* AppDelegate.swift in Sources */,
+				5046A4C622965FE4003ECCF0 /* College.swift in Sources */,
+				5027E28C229D389A00F8D3CD /* TrailLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
